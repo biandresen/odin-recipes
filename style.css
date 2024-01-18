@@ -1,0 +1,120 @@
+/* GENERAL */
+.dishcard {
+    display:inline-block;
+    border: solid rgb(84, 31, 5);
+    border-style: ridge;
+    border-width: 8px;
+    margin-top: 50px;
+}
+
+.toppage {
+    font-size: 26px;
+    text-decoration: none;
+}
+
+img {
+    padding-top: 15px;
+}
+ul {
+    list-style: none;
+    line-height: 1.5;
+    padding: 0;
+    position:relative;
+    display: inline-block;  
+    width:100%;
+    margin: auto;
+    font-size: 25px;
+}
+
+ol {
+    line-height: 1.5;
+    padding: 0;
+    position:relative;
+    display: inline-block;  
+    width:100%;
+    margin: auto;
+    list-style-position: inside;
+    font-size: 25px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+  }
+
+p {
+    font-size: 25px;
+}
+
+h2, h3, h4 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+/* HOMEPAGE */
+.homepage {
+    font-family: 'Norse', sans-serif;
+    background-color:rgb(19, 64, 29);
+    text-align: center;
+}
+
+.hometitle {
+    color: darkgoldenrod;
+    font-size: 80px;
+    border-style: ridge;
+    border-color: rgb(84, 31, 5);
+    border-width: 12px;
+}
+
+.link {
+    color:rgb(176, 126, 0);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* HUMMUS PAGE */
+.hummuspage {
+    font-family: 'Norse', sans-serif;
+    background-color:rgb(229, 218, 95);
+    text-align: center;
+}
+
+.hummustitle {
+    color: rgb(5, 5, 5);
+    font-size: 80px;
+    border-style: ridge;
+    border-color: rgb(84, 31, 5);
+    border-width: 12px;
+}
+
+/* BREAD PAGE */
+.breadpage {
+    font-family: 'Norse', sans-serif;
+    background-color:rgb(119, 90, 47);
+    text-align: center;
+}
+
+.breadtitle {
+    color: rgb(5, 5, 5);
+    font-size: 80px;
+    border-style: ridge;
+    border-color: rgb(84, 31, 5);
+    border-width: 12px;
+}
+
+/* OVERNIGHT OATS PAGE */
+
+.oatspage {
+    font-family: 'Norse', sans-serif;
+    background-color:rgb(255, 127, 127);
+    text-align: center;
+}
+
+.oatstitle {
+    color: rgb(5, 5, 5);
+    font-size: 80px;
+    border-style: ridge;
+    border-color: rgb(84, 31, 5);
+    border-width: 12px;
+}
